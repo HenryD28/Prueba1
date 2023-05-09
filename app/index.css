@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+
+}
+
+body {
+    margin: 0;
+    background-color: #0f172a;
+    color: #f8fafc;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 1rem;
+    background-color: red;
+    width: 100%;
+    border-radius: 1rem;
+    max-height: 25rem;
+    overflow: auto;
+    /* overflow: no funciona si no tiene altura ; */
+    
+
+
+}
+
+.task {
+    display: flex;
+    gap: 1rem;
+}
+
