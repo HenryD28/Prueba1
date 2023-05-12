@@ -70,10 +70,12 @@ body {
 
 
 .container {
+   
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 70%;
+    
     
     
    
@@ -95,7 +97,6 @@ body {
 
 .delete-btn {
     width: 3rem;
-   
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 3rem;
@@ -110,7 +111,6 @@ body {
 
 .chack-btn {
     width: 3rem;
-    
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 3rem;
@@ -130,5 +130,11 @@ body {
     border-radius: 15px;
     align-items: center;
     justify-content: space-between;
-    word-wrap: break-word
+    
 }
+
+.b-1 {
+    background-color:  #1d4ed8 ;
+}
+
+
